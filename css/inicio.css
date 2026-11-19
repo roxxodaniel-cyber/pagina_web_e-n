@@ -12,11 +12,7 @@ body {
     background-color: #121212; 
 }
 
-h1 { 
-    color: #ffffff; 
-    text-align: center; 
-    padding: 20px; 
-}
+
 
 p { 
     font-size: 16px;
@@ -205,3 +201,108 @@ footer {
     font-size: 10px;
     color: #888888;
 }
+
+.fondo {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #333;
+}
+
+.logo
+ {
+    display: flex;
+    align-items: center; 
+    gap: 12px; 
+}
+
+.logo-img 
+{
+    height: 45px; 
+    width: auto; 
+}
+
+
+.logo h1
+{ 
+    font-family: Georgia, serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+ .vista_comienzo 
+ {
+    display: flex;
+    gap: 30px;
+ }
+
+.vista_comienzo a
+{
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+ }
+
+
+
+ .vista_comienzo a:hover
+ {
+    color: #d4af37;
+ }
+
+.Iconos
+{
+    display: flex;
+    align-items: center;    
+    gap: 15px;
+}
+.Iconos button 
+
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #cccccc;
+    font-size: 20px; 
+    transition: color 0.3s;
+}
+
+
+.Iconos button:hover
+
+{
+    color: #d4af37;
+}
+
+.Inicio 
+{
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 15px; 
+}
+
+
+.Registrarse 
+{
+    background-color: #d4af37;
+    color: #111111;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.Registrarse:hover 
+{
+    background-color: #e8c84a;
+}
+
+.Contenido
+ {
+    text-align: center; 
+    padding: 100px 20px; 
+
+ }

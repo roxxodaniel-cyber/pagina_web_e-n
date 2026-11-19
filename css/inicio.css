@@ -1,24 +1,115 @@
-
-* { margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body { font-family: 'Arial', sans-serif; 
-    line-height: 1.6; 
-    color: #ffffff; 
-    background-color: #000000; 
+body { background-color: #111111;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
-h1 { color: #ffffff; 
+.fondo {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid #333;
+}
+
+.logo
+ {
+    display: flex;
+    align-items: center; 
+    gap: 12px; 
+}
+
+.logo-img 
+{
+    height: 45px; 
+    width: auto; 
+}
+
+
+.logo h1
+{ 
+    font-family: Georgia, serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+ .vista_comienzo 
+ {
+    display: flex;
+    gap: 30px;
+ }
+
+.vista_comienzo a
+{
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+ }
+
+
+
+ .vista_comienzo a:hover
+ {
+    color: #d4af37;
+ }
+
+.Iconos
+{
+    display: flex;
+    align-items: center;    
+    gap: 15px;
+}
+.Iconos button 
+
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #cccccc;
+    font-size: 20px; 
+    transition: color 0.3s;
+}
+
+
+.Iconos button:hover
+
+{
+    color: #d4af37;
+}
+
+.Inicio 
+{
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 15px; 
+}
+
+
+.Registrarse 
+{
+    background-color: #d4af37;
+    color: #111111;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.Registrarse:hover 
+{
+    background-color: #e8c84a;
+}
+
+.Contenido
+ {
     text-align: center; 
-    padding: 20px; 
-}
-
-p { font-size: 16px;
-    margin-bottom: 15px;
-}
-
-footer{
-    background-color: #000000f2; 
+    padding: 100px 20px; 
 }
